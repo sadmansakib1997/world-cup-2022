@@ -1,5 +1,4 @@
 main {
-    margin-top: 50px;
     margin-left: 100px;
     margin-right: 100px;
     font-family: 'Poppins', sans-serif;
@@ -7,15 +6,19 @@ main {
 
 }
 
+/* header part start */
+
 header {
     width: 100%;
     height: 500px;
     background: black;
+    margin: 50px 0;
     border-radius: 30px;
 }
 
 .start {
     display: flex;
+    position: relative;
 }
 
 .text,
@@ -24,8 +27,15 @@ header {
 }
 
 .text {
+    position: absolute;
     padding-top: 14%;
-    padding-left: 8%;
+    padding-left: 9%;
+}
+
+.img {
+    position: absolute;
+    top: 72px;
+    left: 460px;
 }
 
 .text-1 {
@@ -44,7 +54,6 @@ header {
 
 .img img {
     width: 90%;
-    padding-top: 23%;
 }
 
 .watch {
@@ -54,3 +63,92 @@ header {
     padding: 5px 12px;
     border-radius: 5px;
 }
+
+/* header part end */
+
+/* another blog part start */
+
+.another-blog {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.blogs {
+    display: flex;
+    position: relative;
+}
+
+.routine {
+    position: sticky;
+    width: 25%;
+    height: 240px;
+    background: black;
+    border-radius: 5px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin-right: 20px;
+    top: 0;
+    left: 0;
+
+
+}
+
+.routine button {
+    width: 200px;
+    background: rgb(255, 255, 255);
+    padding: 8px 10px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 25px;
+
+}
+
+.routine .red {
+    background: red;
+    color: white;
+}
+
+.players {
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+}
+
+.player {
+    width: 200px;
+    box-shadow: 3px 4px 0px 0px rgba(235, 235, 235, 0.88);
+}
+
+.player img {
+    width: 100%;
+}
+
+.player-details {
+    padding-left: 10px;
+    color: black;
+}
+
+.player-text {
+    font-size: 13px;
+    margin: 15px 0;
+}
+
+.player-icon {
+    display: flex;
+    margin-top: -13px;
+
+}
+
+.ten {
+    margin-right: 25px;
+}
+
+.sakib {
+    margin-right: 10px;
+}
+
+/* another blog part end */
