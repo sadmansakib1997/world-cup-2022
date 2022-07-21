@@ -91,7 +91,7 @@ header {
 .routine {
     position: sticky;
     width: 25%;
-    height: 240px;
+    height: 210px;
     background: black;
     border-radius: 5px;
     display: block;
@@ -100,6 +100,7 @@ header {
     margin-right: 20px;
     top: 0;
     left: 0;
+    padding-top: 40px;
 
 
 }
@@ -112,6 +113,19 @@ header {
     font-weight: 600;
     border-radius: 5px;
     margin-top: 25px;
+
+}
+
+.button {
+    width: 200px;
+    background: rgb(255, 255, 255);
+    padding: 8px 10px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 25px;
+    text-decoration: none;
+    color: black;
 
 }
 
@@ -265,3 +279,221 @@ header {
 }
 
 /* 2nd website end */
+
+/* tablet media query */
+@media only screen and (min-width:481px) and (max-width:768px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    main {
+        width: 100%;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+
+    }
+
+    header {
+        width: 60%;
+        height: 300px;
+        background: black;
+        margin: 20px 0;
+        border-radius: 30px;
+    }
+
+    .start {
+        display: flex;
+        position: relative;
+    }
+
+    .text,
+    .img {
+        width: 50%;
+    }
+
+    .text {
+        position: absolute;
+        padding-top: 5%;
+        padding-left: 5%;
+    }
+
+    .img {
+        position: absolute;
+        top: 66px;
+        left: 220px;
+    }
+
+    .text-1 {
+        font-size: 25px;
+        font-weight: 700;
+        margin: 0;
+    }
+
+    .text-2 {
+        width: 80%;
+        font-size: 11px;
+        font-weight: 100;
+        color: rgb(219, 219, 219);
+        margin: 10px 0;
+    }
+
+    .img img {
+        width: 100%;
+    }
+
+    .watch {
+        background: red;
+        color: white;
+        font-size: 15px;
+        padding: 5px 12px;
+        border-radius: 5px;
+    }
+
+    .watch:hover {
+        background: white;
+        color: red;
+    }
+
+    /* ******** */
+    .another-blog {
+        width: 60%;
+        margin-bottom: 50px;
+    }
+
+    .blogs {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .routine {
+        width: 100%;
+        height: 0;
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+        background: rgb(255, 255, 255);
+        margin-bottom: 50px;
+
+
+    }
+
+    .routine button {
+        width: 120px;
+        border: 1px solid black;
+
+        font-size: 20px;
+        font-weight: 600;
+        border-radius: 5px;
+
+    }
+
+    .button {
+        width: 160px;
+        border: 1px solid black;
+        font-size: 18px;
+        font-weight: 600;
+        border-radius: 5px;
+        margin-right: 10px;
+        text-decoration: none;
+        color: black;
+
+    }
+
+    .routine .red {
+        background: red;
+        color: white;
+        margin-left: 10px;
+    }
+
+    .players {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+    }
+
+    .player {
+        width: 212px;
+        box-shadow: 3px 4px 0px 0px rgba(235, 235, 235, 0.88);
+    }
+
+    .player img {
+        width: 100%;
+    }
+
+    .player-details {
+        padding-left: 10px;
+        color: black;
+    }
+
+    .player-text {
+        font-size: 13px;
+        margin: 15px 0;
+    }
+
+    .player-icon {
+        display: flex;
+        margin-top: -13px;
+
+    }
+
+    .ten {
+        margin-right: 25px;
+    }
+
+    .sakib {
+        margin-right: 10px;
+    }
+
+    /* ***************** */
+    .last-part {
+        width: 80%;
+        height: 300px;
+        background: black;
+        padding-top: 140px;
+    }
+
+    .last-part h1 {
+        color: white;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .last-part hr {
+        height: 0;
+        width: 80%;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        margin-bottom: 50px;
+    }
+
+    .item {
+        text-align: center;
+    }
+
+    .item ul li {
+
+        display: inline-block;
+    }
+
+    .item ul li a {
+        text-decoration: none;
+        color: #B9B9B9;
+
+        margin-right: 20px;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+
+
+}
+
+/* tablet media query */
+
+/* mobile media query*/
+sir ami parteci na,
+matha r kaj kore na sorry
+/* mobile media query*/
