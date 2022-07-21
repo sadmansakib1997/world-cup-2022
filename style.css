@@ -278,6 +278,26 @@ header {
     margin-top: -15px;
 }
 
+.last-item {
+    text-align: center;
+
+}
+
+.last-item ul li {
+
+    display: inline-block;
+}
+
+.last-item ul li a {
+    text-decoration: none;
+    color: #000000;
+    background: rgb(252, 252, 252);
+    margin-right: 20px;
+    font-size: 24px;
+    padding: 10px 10px;
+    border-radius: 50%;
+}
+
 /* 2nd website end */
 
 /* tablet media query */
@@ -495,5 +515,5 @@ header {
 
 /* mobile media query*/
 sir ami parteci na,
-matha r kaj kore na sorry
+mobile responsive korte nile amr mul design nosto hoy. matha r kaj kore na sorry
 /* mobile media query*/
